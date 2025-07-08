@@ -720,12 +720,8 @@ Refer the Checksum Calculation function inside the AirpayDemoViewModel.swift
 
 ### Response handling will be managed by the finishPayment() method - 
 
-Note :- AirPayDelegate class was extended to the AirpayDemoViewModel.swift class hence we are able to get the finishPayment method on AirpayDemoViewModel.swift class
+## Note :- AirPayDelegate class was extended to the AirpayDemoViewModel.swift class hence we are able to get the finishPayment method on AirpayDemoViewModel.swift class
 
-```	
-    
-
-```	
 
 Note:- Securehash logic was mentioned inside the finishPayment method. Calculated securehash will be matched with securehash getting from the transaction response, By matching the securehash value we can validate the transaction response getting from the server.
 
